@@ -4369,7 +4369,7 @@ ElementsTable.Colorpicker = (function()
 			Position = UDim2.new(1, -10, 0.5, 0),
 			AnchorPoint = Vector2.new(1, 0.5),
 			Parent = ColorpickerFrame.Frame,
-			Image = "http://www.roblox.com/asset/?id=14204231522",
+			Image = "http://www.roblox.com/asset/?id=111241790735509",
 			ImageTransparency = 0.45,
 			ScaleType = Enum.ScaleType.Tile,
 			TileSize = UDim2.fromOffset(40, 40),
