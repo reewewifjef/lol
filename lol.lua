@@ -1616,7 +1616,7 @@ function AcrylicPaint()
 			}),
 
 			New("ImageLabel", {
-				Image = "rbxassetid://9968344105",
+				Image = "rbxassetid://111241790735509",
 				ImageTransparency = 0.98,
 				ScaleType = Enum.ScaleType.Tile,
 				TileSize = UDim2.new(0, 128, 0, 128),
@@ -1629,7 +1629,7 @@ function AcrylicPaint()
 			}),
 
 			New("ImageLabel", {
-				Image = "rbxassetid://9968344227",
+				Image = "rbxassetid://111241790735509",
 				ImageTransparency = 0.9,
 				ScaleType = Enum.ScaleType.Tile,
 				TileSize = UDim2.new(0, 128, 0, 128),
@@ -2034,7 +2034,7 @@ Components.Tab = (function()
 			BackgroundTransparency = 1,
 			Parent = Window.ContainerHolder,
 			Visible = false,
-			BottomImage = "rbxassetid://6889812791",
+			BottomImage = "rbxassetid://111241790735509",
 			MidImage = "rbxassetid://6889812721",
 			TopImage = "rbxassetid://6276641225",
 			ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255),
