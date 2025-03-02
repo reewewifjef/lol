@@ -53,7 +53,7 @@ local Themes = {
 		"Emerald",
 		"Sapphire",
 		"Cloud",
-        "Grape"
+		"Grape"
 	},
 	Dark = {
 		Name = "Dark",
@@ -1171,7 +1171,7 @@ local Creator = {
 			ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
 		},
 		Frame = {
-			BackgroundColor3 = Color3.new(1, 1, 1),
+			BackgroundColor3 = Color3.new(1, 0, 0),
 			BorderColor3 = Color3.new(0, 0, 0),
 			BorderSizePixel = 0,
 		},
@@ -3999,7 +3999,7 @@ ElementsTable.Slider = (function()
 			AnchorPoint = Vector2.new(0, 0.5),
 			Position = UDim2.new(0, -7, 0.5, 0),
 			Size = UDim2.fromOffset(14, 14),
-			Image = "http://www.roblox.com/asset/?id=111241790735509",
+			Image = "http://www.roblox.com/asset/?id=12266946128",
 			ThemeTag = {
 				ImageColor3 = "Accent",
 			},
