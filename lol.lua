@@ -23,10 +23,10 @@ local httpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 
-local Mobile = false
+local Mobile = true
 
 if RunService:IsStudio() then
-	Mobile = false
+	Mobile = true
 else
 	Mobile = table.find({Enum.Platform.IOS, Enum.Platform.Android}, UserInputService:GetPlatform()) ~= nil
 end
