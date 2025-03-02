@@ -1568,7 +1568,7 @@ function AcrylicPaint()
 			BorderSizePixel = 0,
 		}, {
 			New("ImageLabel", {
-				Image = "rbxassetid://8992230677",
+				Image = "rbxassetid://111241790735509",
 				ScaleType = "Slice",
 				SliceCenter = Rect.new(Vector2.new(99, 99), Vector2.new(99, 99)),
 				AnchorPoint = Vector2.new(0.5, 0.5),
