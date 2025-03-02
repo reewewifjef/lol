@@ -1199,7 +1199,7 @@ local Creator = {
 			TextSize = 14,
 		},
 		TextBox = {
-			BackgroundColor3 = Color3.new(1, 1, 1),
+			BackgroundColor3 = Color3.new(1, 0, 0),
 			BorderColor3 = Color3.new(0, 0, 0),
 			ClearTextOnFocus = false,
 			Font = Enum.Font.SourceSans,
