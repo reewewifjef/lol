@@ -23,10 +23,10 @@ local httpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 
-local Mobile = true
+local Mobile = false
 
 if RunService:IsStudio() then
-	Mobile = true
+	Mobile = false
 else
 	Mobile = table.find({Enum.Platform.IOS, Enum.Platform.Android}, UserInputService:GetPlatform()) ~= nil
 end
@@ -111,13 +111,11 @@ local Themes = {
 		Dialog = Color3.fromRGB(35, 35, 35),
 		DialogHolder = Color3.fromRGB(25, 25, 25),
 		DialogHolderLine = Color3.fromRGB(20, 20, 20),
-		DialogButton = Color3.fromRGB(1, 0, 0),
+		DialogButton = Color3.fromRGB(35, 35, 35),
 		DialogButtonBorder = Color3.fromRGB(55, 55, 55),
 		DialogBorder = Color3.fromRGB(50, 50, 50),
 		DialogInput = Color3.fromRGB(45, 45, 45),
 		DialogInputLine = Color3.fromRGB(120, 120, 120),
-		Text = Color3.fromRGB(240, 240, 240),
-		SubText = Color3.fromRGB(170, 170, 170)
 	},
 	AMOLED = {
 		Name = "AMOLED",
@@ -1192,7 +1190,7 @@ local Creator = {
 			TextSize = 14,
 		},
 		TextButton = {
-			BackgroundColor3 = Color3.new(1, 1, 1),
+			BackgroundColor3 = Color3.new(1, 0, 0),
 			BorderColor3 = Color3.new(0, 0, 0),
 			AutoButtonColor = false,
 			Font = Enum.Font.SourceSans,
@@ -1570,7 +1568,7 @@ function AcrylicPaint()
 			BorderSizePixel = 0,
 		}, {
 			New("ImageLabel", {
-				Image = "rbxassetid://111241790735509",
+				Image = "rbxassetid://8992230677",
 				ScaleType = "Slice",
 				SliceCenter = Rect.new(Vector2.new(99, 99), Vector2.new(99, 99)),
 				AnchorPoint = Vector2.new(0.5, 0.5),
@@ -1616,7 +1614,7 @@ function AcrylicPaint()
 			}),
 
 			New("ImageLabel", {
-				Image = "rbxassetid://111241790735509",
+				Image = "rbxassetid://9968344105",
 				ImageTransparency = 0.98,
 				ScaleType = Enum.ScaleType.Tile,
 				TileSize = UDim2.new(0, 128, 0, 128),
@@ -1629,7 +1627,7 @@ function AcrylicPaint()
 			}),
 
 			New("ImageLabel", {
-				Image = "rbxassetid://111241790735509",
+				Image = "rbxassetid://9968344227",
 				ImageTransparency = 0.9,
 				ScaleType = Enum.ScaleType.Tile,
 				TileSize = UDim2.new(0, 128, 0, 128),
@@ -2034,7 +2032,7 @@ Components.Tab = (function()
 			BackgroundTransparency = 1,
 			Parent = Window.ContainerHolder,
 			Visible = false,
-			BottomImage = "rbxassetid://111241790735509",
+			BottomImage = "rbxassetid://6889812791",
 			MidImage = "rbxassetid://6889812721",
 			TopImage = "rbxassetid://6276641225",
 			ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255),
@@ -4371,7 +4369,7 @@ ElementsTable.Colorpicker = (function()
 			Position = UDim2.new(1, -10, 0.5, 0),
 			AnchorPoint = Vector2.new(1, 0.5),
 			Parent = ColorpickerFrame.Frame,
-			Image = "http://www.roblox.com/asset/?id=111241790735509",
+			Image = "http://www.roblox.com/asset/?id=14204231522",
 			ImageTransparency = 0.45,
 			ScaleType = Enum.ScaleType.Tile,
 			TileSize = UDim2.fromOffset(40, 40),
