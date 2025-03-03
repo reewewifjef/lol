@@ -39,7 +39,7 @@ local Themes = {
 	Names = {
 		"Dark",
 		"Darker",
-        "XDHoHo", 
+        	"Xdhoho", 
 		"AMOLED",
 		"Light",
 		"Balloon",
@@ -118,8 +118,8 @@ local Themes = {
 		DialogInput = Color3.fromRGB(45, 45, 45),
 		DialogInputLine = Color3.fromRGB(120, 120, 120),
 	},
-    XDHoHo = {
-		Name = "XDHoHo",
+    Xdhoho = {
+		Name = "Xdhoho",
 		Accent = Color3.fromRGB(96, 205, 255),
 		AcrylicMain = Color3.fromRGB(30, 30, 30),
 		AcrylicBorder = Color3.fromRGB(90, 90, 90),
