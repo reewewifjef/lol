@@ -725,7 +725,7 @@ local Themes = {
 }
 
 local Library = {
-	Version = "1.2",
+	Version = "1.3",
 
 	OpenFrames = {},
 	Options = {},
