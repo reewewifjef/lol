@@ -1195,7 +1195,7 @@ local Creator = {
 			AutoButtonColor = false,
 			Font = Enum.Font.SourceSans,
 			Text = "",
-			TextColor3 = Color3.new(0, 0, 0),
+			TextColor3 = Color3.new(1, 0, 0),
 			TextSize = 14,
 		},
 		TextBox = {
