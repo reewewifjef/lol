@@ -53,10 +53,11 @@ local Themes = {
 		"Emerald",
 		"Sapphire",
 		"Cloud",
+		"Yaru",
 		"Grape"
 	},
 	Yaru = {
-Name = "Dark",
+Name = "Yaru",
 Accent = Color3.fromHex("#e95420"),
  AcrylicMain = Color3.fromHex("#edeef0"),
     AcrylicBorder = Color3.fromHex("#D4D4D4"),
