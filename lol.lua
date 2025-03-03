@@ -39,8 +39,8 @@ local Themes = {
 	Names = {
 		"Dark",
 		"Darker",
-        "Xdhoho",
-		"Solarizeddark", 
+        	"Xdhoho",
+		"Solarized Dark", 
 		"AMOLED",
 		"Light",
 		"Balloon",
@@ -149,8 +149,8 @@ local Themes = {
 		Hover = Color3.fromRGB(120, 120, 120),
 		HoverChange = 0.07,
     },
-	Solarizeddark = {
-		Name = "Solarizeddark",	
+	Solarized Dark = {
+		Name = "Solarized Dark",	
 		Accent = Color3.fromRGB(42, 161, 152), -- String color as accent
     	AcrylicMain = Color3.fromRGB(0, 43, 54), -- editor.background
     	AcrylicBorder = Color3.fromRGB(7, 54, 66), -- editor.lineHighlightBackground
