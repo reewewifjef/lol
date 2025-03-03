@@ -39,7 +39,7 @@ local Themes = {
 	Names = {
 		"Dark",
 		"Darker",
-        	"XDHoHo", 
+        "XDHoHo", 
 		"AMOLED",
 		"Light",
 		"Balloon",
@@ -121,7 +121,7 @@ local Themes = {
     XDHoHo = {
 		Name = "XDHoHo",
 		Accent = Color3.fromRGB(96, 205, 255),
-		AcrylicMain = Color3.fromRGB(60, 60, 60),
+		AcrylicMain = Color3.fromRGB(30, 30, 30),
 		AcrylicBorder = Color3.fromRGB(90, 90, 90),
 		AcrylicGradient = ColorSequence.new(Color3.fromRGB(40, 40, 40), Color3.fromRGB(40, 40, 40)),
 		AcrylicNoise = 0.9,
