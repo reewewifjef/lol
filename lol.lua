@@ -150,7 +150,7 @@ local Themes = {
 		HoverChange = 0.07,
     },
 	Solarizeddark = {
-		Name = "Solarized Dark"	
+		Name = "Solarized Dark",
 		Accent = Color3.fromRBG("42, 161, 152"), -- String color as accent
     		AcrylicMain = Color3.fromRBG("0, 43, 54"), -- editor.background
     		AcrylicBorder = Color3.fromRBG("7, 54, 66"), -- editor.lineHighlightBackground
@@ -184,7 +184,7 @@ local Themes = {
     		Text = Color3.fromRBG("131, 148, 150"), -- editor.foreground
     		SubText = Color3.fromRBG("88, 110, 117"), -- Comment color
     		Hover = Color3.fromRBG("0, 68, 84"), -- list.hoverBackground
-    		HoverChange = 0.1
+    		HoverChange = 0.1,
 },
 	AMOLED = {
 		Name = "AMOLED",
