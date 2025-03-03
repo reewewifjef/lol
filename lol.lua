@@ -39,7 +39,7 @@ local Themes = {
 	Names = {
 		"Dark",
 		"Darker",
-        "Xdhoho",
+        	"Xdhoho",
 		"Solarized Dark", 
 		"AMOLED",
 		"Light",
