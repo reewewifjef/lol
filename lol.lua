@@ -183,7 +183,7 @@ local Themes = {
     	DialogInputLine = Color3.fromRGB(117, 5, 5), -- String color
     	Text = Color3.fromRGB(131, 148, 150), -- editor.foreground
     	SubText = Color3.fromRGB(88, 110, 117), -- Comment color
-    	Hover = Color3.fromRGB(0, 68, 84), -- list.hoverBackground
+    	Hover = Color3.fromRGB(1, 2, 3), -- list.hoverBackground
     	HoverChange = 0.1,
 },
 	AMOLED = {
