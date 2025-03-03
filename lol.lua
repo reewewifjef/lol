@@ -91,7 +91,7 @@ local Themes = {
 		Text = Color3.fromRGB(240, 240, 240),
 		SubText = Color3.fromRGB(170, 170, 170),
 		Hover = Color3.fromRGB(120, 120, 120),
-		HoverChange = 0.07,
+		HoverChange = 0.07
 	},
 	Darker = {
 		Name = "Darker",
@@ -116,7 +116,7 @@ local Themes = {
 		DialogButtonBorder = Color3.fromRGB(55, 55, 55),
 		DialogBorder = Color3.fromRGB(50, 50, 50),
 		DialogInput = Color3.fromRGB(45, 45, 45),
-		DialogInputLine = Color3.fromRGB(120, 120, 120),
+		DialogInputLine = Color3.fromRGB(120, 120, 120)
 	},
     Xdhoho = {
 		Name = "Xdhoho",
@@ -153,7 +153,7 @@ local Themes = {
 		Text = Color3.fromRGB(125, 4, 4),
 		SubText = Color3.fromRGB(170, 170, 170),
 		Hover = Color3.fromRGB(120, 120, 120),
-		HoverChange = 0.07,
+		HoverChange = 0.07
     },
 	AMOLED = {
 		Name = "AMOLED",
