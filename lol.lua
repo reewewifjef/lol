@@ -37,7 +37,6 @@ local ProtectGui = protectgui or (syn and syn.protect_gui) or function() end
 
 local Themes = {
 	Names = {
-		"Yaru",
 		"Dark",
 		"Darker", 
 		"AMOLED",
@@ -56,43 +55,6 @@ local Themes = {
 		"Cloud",
 		"Grape"
 	},
-	Yaru = {
-		Name = "Yaru",
-		Accent = Color3.fromRGB(233, 84, 32),
-		AcrylicMain = Color3.fromRGB(212, 212, 212),
-		AcrylicBorder = Color3.fromRGB(90, 90, 90),
-		AcrylicGradient = ColorSequence.new(Color3.fromRGB(237, 238, 240), Color3.fromRGB(237, 238, 240)),
-		AcrylicNoise = 1,
-		TitleBarLine = Color3.fromRGB(212, 212, 212),
-		Tab = Color3.fromRGB(120, 120, 120),
-		Element = Color3.fromRGB(120, 120, 120),
-		ElementBorder = Color3.fromRGB(35, 35, 35),
-		InElementBorder = Color3.fromRGB(90, 90, 90),
-		ElementTransparency = 0.87,
-		ToggleSlider = Color3.fromRGB(120, 120, 120),
-		ToggleToggled = Color3.fromRGB(42, 42, 42),
-		SliderRail = Color3.fromRGB(120, 120, 120),
-		DropdownFrame = Color3.fromRGB(160, 160, 160),
-		DropdownHolder = Color3.fromRGB(45, 45, 45),
-		DropdownBorder = Color3.fromRGB(35, 35, 35),
-		DropdownOption = Color3.fromRGB(120, 120, 120),
-		Keybind = Color3.fromRGB(120, 120, 120),
-		Input = Color3.fromRGB(160, 160, 160),
-		InputFocused = Color3.fromRGB(10, 10, 10),
-		InputIndicator = Color3.fromRGB(150, 150, 150),
-		Dialog = Color3.fromRGB(45, 45, 45),
-		DialogHolder = Color3.fromRGB(35, 35, 35),
-		DialogHolderLine = Color3.fromRGB(30, 30, 30),
-		DialogButton = Color3.fromRGB(45, 45, 45),
-		DialogButtonBorder = Color3.fromRGB(80, 80, 80),
-		DialogBorder = Color3.fromRGB(70, 70, 70),
-		DialogInput = Color3.fromRGB(55, 55, 55),
-		DialogInputLine = Color3.fromRGB(160, 160, 160),
-		Text = Color3.fromRGB(240, 240, 240),
-		SubText = Color3.fromRGB(170, 170, 170),
-		Hover = Color3.fromRGB(120, 120, 120),
-		HoverChange = 0.07,
-},
 	Dark = {
 		Name = "Dark",
 		Accent = Color3.fromRGB(96, 205, 255),
@@ -135,7 +97,7 @@ local Themes = {
 		Accent = Color3.fromRGB(56, 109, 223),
 		AcrylicMain = Color3.fromRGB(30, 30, 30),
 		AcrylicBorder = Color3.fromRGB(60, 60, 60),
-		AcrylicGradient = ColorSequence.new(Color3.fromRGB(17, 17, 17), Color3.fromRGB(18, 18, 18)),
+		AcrylicGradient = ColorSequence.new(Color3.fromRGB(217, 9, 9), Color3.fromRGB(217, 9, 9)),
 		AcrylicNoise = 0.94,
 		TitleBarLine = Color3.fromRGB(65, 65, 65),
 		Tab = Color3.fromRGB(100, 100, 100),
@@ -725,7 +687,7 @@ local Themes = {
 }
 
 local Library = {
-	Version = "1.3",
+	Version = "1.2",
 
 	OpenFrames = {},
 	Options = {},
