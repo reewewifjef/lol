@@ -91,7 +91,7 @@ local Themes = {
 		Text = Color3.fromRGB(240, 240, 240),
 		SubText = Color3.fromRGB(170, 170, 170),
 		Hover = Color3.fromRGB(120, 120, 120),
-		HoverChange = 0.07
+		HoverChange = 0.07,
 	},
 	Darker = {
 		Name = "Darker",
@@ -116,7 +116,7 @@ local Themes = {
 		DialogButtonBorder = Color3.fromRGB(55, 55, 55),
 		DialogBorder = Color3.fromRGB(50, 50, 50),
 		DialogInput = Color3.fromRGB(45, 45, 45),
-		DialogInputLine = Color3.fromRGB(120, 120, 120)
+		DialogInputLine = Color3.fromRGB(120, 120, 120),
 	},
     Xdhoho = {
 		Name = "Xdhoho",
@@ -153,7 +153,7 @@ local Themes = {
 		Text = Color3.fromRGB(125, 4, 4),
 		SubText = Color3.fromRGB(170, 170, 170),
 		Hover = Color3.fromRGB(120, 120, 120),
-		HoverChange = 0.07
+		HoverChange = 0.07,
     },
 	AMOLED = {
 		Name = "AMOLED",
@@ -191,7 +191,7 @@ local Themes = {
 		Text = Color3.fromRGB(255, 255, 255),
 		SubText = Color3.fromRGB(170, 170, 170),
 		Hover = Color3.fromRGB(40, 40, 40),
-		HoverChange = 0.04
+		HoverChange = 0.04,
 	},
 	Light = {
 		Name = "Light",
@@ -267,7 +267,7 @@ local Themes = {
 		Text = Color3.fromRGB(30, 30, 30),
 		SubText = Color3.fromRGB(90, 90, 90),
 		Hover = Color3.fromRGB(170, 220, 255),
-		HoverChange = 0.03
+		HoverChange = 0.03,
 	},
 	SoftCream = {
 		Name = "SoftCream",
@@ -305,7 +305,7 @@ local Themes = {
 		Text = Color3.fromRGB(30, 30, 30),
 		SubText = Color3.fromRGB(90, 90, 90),
 		Hover = Color3.fromRGB(255, 220, 190),
-		HoverChange = 0.03
+		HoverChange = 0.03,
 	},
 	Aqua = {
 		Name = "Aqua",
@@ -380,7 +380,7 @@ local Themes = {
 		Text = Color3.fromRGB(240, 240, 240),
 		SubText = Color3.fromRGB(170, 170, 170),
 		Hover = Color3.fromRGB(135, 65, 160),
-		HoverChange = 0.04
+		HoverChange = 0.04,
 	},
 	Rose = {
 		Name = "Rose",
@@ -418,7 +418,7 @@ local Themes = {
 		Text = Color3.fromRGB(240, 240, 240),
 		SubText = Color3.fromRGB(170, 170, 170),
 		Hover = Color3.fromRGB(190, 75, 105),
-		HoverChange = 0.04
+		HoverChange = 0.04,
 	},
 	Midnight = {
 		Name = "Midnight",
