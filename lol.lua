@@ -39,7 +39,7 @@ local Themes = {
 	Names = {
 		"Dark",
 		"Darker",
-        	"Xdhoho",
+        "Xdhoho",
 		"Solarizeddark", 
 		"AMOLED",
 		"Light",
@@ -150,41 +150,41 @@ local Themes = {
 		HoverChange = 0.07,
     },
 	Solarizeddark = {
-		Name = "Solarizeddark",
-		Accent = Color3.fromRBG("42, 161, 152"), -- String color as accent
-    		AcrylicMain = Color3.fromRBG("0, 43, 54"), -- editor.background
-    		AcrylicBorder = Color3.fromRBG("7, 54, 66"), -- editor.lineHighlightBackground
-    		AcrylicGradient = ColorSequence.new(Color3.fromRBG("0, 43, 54"), Color3.fromRBG("0, 43, 54")),
-    		AcrylicNoise = 1,
-    		TitleBarLine = Color3.fromRBG("42, 161, 152"), -- focusBorder
-    		Tab = Color3.fromRBG("131, 148, 150"), -- editor.foreground
-    		Element = Color3.fromRBG("0, 56, 71"), -- input.background
-    		ElementBorder = Color3.fromRBG("42, 161, 152"), -- focusBorder
-    		InElementBorder = Color3.fromRBG("42, 161, 152"), -- String color
-    		ElementTransparency = 0,
-    		ToggleSlider = Color3.fromRBG("42, 161, 152"), -- String color
-    		ToggleToggled = Color3.fromRBG("0, 43, 54"), -- editor.background
-   		SliderRail = Color3.fromRBG("42, 161, 152"), -- String color
-    		DropdownFrame = Color3.fromRBG("0, 33, 43"), -- dropdown.background
-    		DropdownHolder = Color3.fromRBG("0, 33, 43"), -- dropdown.background
-    		DropdownBorder = Color3.fromRBG("42, 161, 152"), -- dropdown.border
-    		DropdownOption = Color3.fromRBG("131, 148, 150"), -- foreground
-    		Keybind = Color3.fromRBG("0, 56, 71"), -- input.background
-    		Input = Color3.fromRBG("0, 56, 71"), -- input.background
-    		InputFocused = Color3.fromRBG("0, 56, 71"), -- input.background
-    		InputIndicator = Color3.fromRBG("147, 161, 161"), -- input.placeholderForeground
-    		Dialog = Color3.fromRBG("0, 33, 43"), -- editorWidget.background
- 		DialogHolder = Color3.fromRBG("0, 43, 54"), -- editor.background
-    		DialogHolderLine = Color3.fromRBG("#073642"), -- editor.lineHighlightBackground
-    		DialogButton = Color3.fromRBG("0, 56, 71"), -- input.background
-    		DialogButtonBorder = Color3.fromRBG("42, 161, 152"), -- focusBorder
-    		DialogBorder = Color3.fromRBG("42, 161, 152"), -- focusBorder
-    		DialogInput = Color3.fromRBG("0, 56, 71"), -- input.background
-    		DialogInputLine = Color3.fromRBG("42, 161, 152"), -- String color
-    		Text = Color3.fromRBG("131, 148, 150"), -- editor.foreground
-    		SubText = Color3.fromRBG("88, 110, 117"), -- Comment color
-    		Hover = Color3.fromRBG("0, 68, 84"), -- list.hoverBackground
-    		HoverChange = 0.1,
+		Name = "Solarizeddark",	
+		Accent = Color3.fromRBG(42, 161, 152), -- String color as accent
+    	AcrylicMain = Color3.fromRBG(0, 43, 54), -- editor.background
+    	AcrylicBorder = Color3.fromRBG(7, 54, 66), -- editor.lineHighlightBackground
+    	AcrylicGradient = ColorSequence.new(Color3.fromRBG("0, 43, 54"), Color3.fromRBG("0, 43, 54")),
+    	AcrylicNoise = 1,
+    	TitleBarLine = Color3.fromRBG(42, 161, 152), -- focusBorder
+    	Tab = Color3.fromRBG(131, 148, 150), -- editor.foreground
+    	Element = Color3.fromRBG(0, 56, 71), -- input.background
+    	ElementBorder = Color3.fromRBG(42, 161, 152), -- focusBorder
+    	InElementBorder = Color3.fromRBG(42, 161, 152), -- String color
+    	ElementTransparency = 0,
+    	ToggleSlider = Color3.fromRBG(42, 161, 152), -- String color
+    	ToggleToggled = Color3.fromRBG(0, 43, 54), -- editor.background
+   		SliderRail = Color3.fromRBG(42, 161, 152), -- String color
+    	DropdownFrame = Color3.fromRBG(0, 33, 43), -- dropdown.background
+    	DropdownHolder = Color3.fromRBG(0, 33, 43), -- dropdown.background
+    	DropdownBorder = Color3.fromRBG(42, 161, 152), -- dropdown.border
+    	DropdownOption = Color3.fromRBG(131, 148, 150), -- foreground
+    	Keybind = Color3.fromRBG(0, 56, 71), -- input.background
+    	Input = Color3.fromRBG(0, 56, 71), -- input.background
+    	InputFocused = Color3.fromRBG(0, 56, 71), -- input.background
+    	InputIndicator = Color3.fromRBG(147, 161, 161), -- input.placeholderForeground
+    	Dialog = Color3.fromRBG(0, 33, 43), -- editorWidget.background
+ 		DialogHolder = Color3.fromRBG(0, 43, 54), -- editor.background
+    	DialogHolderLine = Color3.fromRBG(7, 54, 66), -- editor.lineHighlightBackground
+    	DialogButton = Color3.fromRBG(0, 56, 71), -- input.background
+    	DialogButtonBorder = Color3.fromRBG(42, 161, 152), -- focusBorder
+    	DialogBorder = Color3.fromRBG(42, 161, 152), -- focusBorder
+    	DialogInput = Color3.fromRBG(0, 56, 71), -- input.background
+    	DialogInputLine = Color3.fromRBG(42, 161, 152), -- String color
+    	Text = Color3.fromRBG(131, 148, 150), -- editor.foreground
+    	SubText = Color3.fromRBG(88, 110, 117), -- Comment color
+    	Hover = Color3.fromRBG(0, 68, 84), -- list.hoverBackground
+    	HoverChange = 0.1,
 },
 	AMOLED = {
 		Name = "AMOLED",
