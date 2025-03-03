@@ -39,7 +39,7 @@ local Themes = {
 	Names = {
 		"Dark",
 		"Darker",
-        "Xdhoho", 
+        	"Xdhoho", 
 		"AMOLED",
 		"Light",
 		"Balloon",
@@ -145,8 +145,6 @@ local Themes = {
 		DialogInputLine = Color3.fromRGB(160, 160, 160),
 		Text = Color3.fromRGB(240, 240, 240),
 		SubText = Color3.fromRGB(170, 170, 170),
-		Hover = Color3.fromRGB(120, 120, 120),
-		HoverChange = 0.07,
     },
 	AMOLED = {
 		Name = "AMOLED",
