@@ -57,8 +57,8 @@ local Themes = {
 		"Grape"
 	},
 	Yaru = {
-Name = "Yaru",
-Accent = Color3.fromRGB(233, 84, 32),
+		Name = "Yaru",
+		Accent = Color3.fromRGB(233, 84, 32),
 		AcrylicMain = Color3.fromRGB(212, 212, 212),
 		AcrylicBorder = Color3.fromRGB(90, 90, 90),
 		AcrylicGradient = ColorSequence.new(Color3.fromRGB(237, 238, 240), Color3.fromRGB(237, 238, 240)),
@@ -92,7 +92,7 @@ Accent = Color3.fromRGB(233, 84, 32),
 		SubText = Color3.fromRGB(170, 170, 170),
 		Hover = Color3.fromRGB(120, 120, 120),
 		HoverChange = 0.07,
-}
+},
 	Dark = {
 		Name = "Dark",
 		Accent = Color3.fromRGB(96, 205, 255),
