@@ -151,7 +151,7 @@ local Themes = {
     },
 	Solarizeddark = {
 		Name = "Solarizeddark",	
-		Accent = Color3.fromRGB(199, 4, 4), -- String color as accent
+		Accent = Color3.fromRGB(8, 2, 1), -- String color as accent
     		AcrylicMain = Color3.fromRGB(8, 2, 1), -- editor.background
     		AcrylicBorder = Color3.fromRGB(7, 54, 66), -- editor.lineHighlightBackground
     		AcrylicGradient = ColorSequence.new(Color3.fromRGB(8, 2, 1), Color3.fromRGB(8, 2, 1)),
