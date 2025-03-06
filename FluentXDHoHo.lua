@@ -1,4 +1,15 @@
-w---@diagnostic disable: lowercase-global, undefined-global, undefined-field
+---@diagnostic disable: lowercase-global, undefined-global, undefined-field
+
+
+
+--[[             |
+'                |   Last changes:     
+FluentPlus 1.2   |   01.01 - fixed this file and mobile support, added a "GUI dragging cooldown".
+dsc.gg/hydrahub  |   31.12 - fixed all themes, more info in discord.
+'                |   30.12 - added themes.
+]]--             |
+
+
 
 local Lighting = game:GetService("Lighting")
 local RunService = game:GetService("RunService")
