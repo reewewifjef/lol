@@ -1,6 +1,5 @@
 ---@diagnostic disable: lowercase-global, undefined-global, undefined-field
 
-
 local Lighting = game:GetService("Lighting")
 local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
@@ -13,10 +12,10 @@ local httpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 
-local Mobile = true
+local Mobile = false
 
 if RunService:IsStudio() then
-	Mobile = true
+	Mobile = false
 else
 	Mobile = table.find({Enum.Platform.IOS, Enum.Platform.Android}, UserInputService:GetPlatform()) ~= nil
 end
@@ -6336,7 +6335,7 @@ local MinimizeButton = New("TextButton", {
 		PaddingTop = UDim.new(0, 2),
 	}),
 	New("ImageLabel", {
-		Image = Mobile and "rbxassetid://10734897102" or "",
+		Image = Mobile and "rbxassetid://111241790735509" or "",
 		Size = UDim2.new(1, 0, 1, 0),
 		BackgroundTransparency = 1,
 	}, {
