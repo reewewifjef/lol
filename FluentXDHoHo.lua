@@ -1,6 +1,3 @@
----@diagnostic disable: lowercase-global, undefined-global, undefined-field
-
-
 local Lighting = game:GetService("Lighting")
 local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
